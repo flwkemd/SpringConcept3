@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<form action="processForm2" method="GET">
+	<form action="processForm3" method="GET">
 		<input type="text" name="studentName"
 			placeholder="이름을 입력해주세요.">
 		<input type="submit" value="전송">
