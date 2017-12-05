@@ -8,13 +8,9 @@
 </head>
 <body>
 
-<h2>Spring MVC Demo - Home</h2>
-
-<hr>
-
-<a href="hello/showForm">Hello world form</a>
-<br>
-<a href="student/showForm">Student Form</a>
+	The student is confirmed: ${student.firstName } ${student.lastName }
+	<br>
+	Country : ${student.country }
 
 </body>
 </html>
