@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,15 +9,7 @@
 </head>
 <body>
 
-<h2>Spring MVC Demo - Home</h2>
-
-<hr>
-
-<a href="hello/showForm">Hello world form</a>
-<br>
-<a href="student/showForm">Student Form</a>
-<br>
-<a href="customer/showForm">Customer Form</a>
+The customer is confirmed : ${customer.firstName } ${customer.lastName }
 
 </body>
 </html>
