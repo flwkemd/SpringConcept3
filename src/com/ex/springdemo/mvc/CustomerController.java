@@ -39,6 +39,8 @@ public class CustomerController {
 	public String processForm(@Valid @ModelAttribute("customer") Customer theCustomer,
 			BindingResult theBindResult) {
 		
+		System.out.println("Binding result: "+theBindResult);
+		
 		if(theBindResult.hasErrors()) {
 			return "customer-form";
 		}else {
